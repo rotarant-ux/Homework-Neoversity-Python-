@@ -1,17 +1,27 @@
 import random
 
-def get_numbers_ticket(min, max, quantity):
-    # перевірка коректності параметрів
-    if min < 1 or max > 1000 or min >= max or quantity > (max - min + 1):
+
+def get_numbers_ticket(min_num: int, max_num: int, quantity: int) -> list[int]:
+    """
+        Генерує відсортований список унікальних випадкових чисел у діапазоні [min_num, max_num].
+
+        Якщо параметри не відповідають обмеженням — повертає [].
+        """
+    if (
+        min_num < 1
+        or max_num > 1000
+        or min_num >= max_num
+        or quantity <= 0
+        or quantity > (max_num - min_num + 1)
+    ):
         return []
 
-    numbers = set()
+    numbers: set[int] = set()
 
-    # генерація унікальних випадкових чисел
     while len(numbers) < quantity:
-        numbers.add(random.randint(min, max))
+        numbers.add(random.randint(min_num, max_num))
 
-    # повертаємо відсортований список
     return sorted(numbers)
-# Перевірка роботи
-print(get_numbers_ticket(1, 49, 6))
+
+if __name__ == '__main__':
+    print(get_numbers_ticket(1, 49, 6))
