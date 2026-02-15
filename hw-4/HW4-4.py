@@ -1,48 +1,59 @@
 from datetime import datetime, timedelta
 
 
-def get_upcoming_birthdays(users):
-    # Отримуємо поточну дату (без часу)
+def get_upcoming_birthdays(
+    users: list[dict[str, str]]
+) -> list[dict[str, str]]:
+    """
+    Повертає список колег, яких потрібно привітати протягом наступних 7 днів включно.
+
+    Вхідні дані:
+    - users: список словників з ключами:
+        - name: ім'я (str)
+        - birthday: дата народження у форматі 'YYYY.MM.DD' (str)
+
+    Вихідні дані:
+    - список словників з ключами:
+        - name (str)
+        - congratulation_date: дата привітання у форматі 'YYYY.MM.DD' (str)
+
+    Якщо день народження припадає на суботу або неділю — привітання переноситься
+    на найближчий понеділок.
+    """
     today = datetime.today().date()
+    upcoming: list[dict[str, str]] = []
 
-    # Список для збереження майбутніх привітань
-    upcoming = []
-
-    # Проходимо по всіх користувачах
     for user in users:
-        # Перетворюємо день народження з рядка у об'єкт date
         birthday = datetime.strptime(user["birthday"], "%Y.%m.%d").date()
-
-        # Формуємо день народження у поточному році
         birthday_this_year = birthday.replace(year=today.year)
 
-        # Якщо день народження цього року вже минув —
-        # переносимо його на наступний рік
         if birthday_this_year < today:
             birthday_this_year = birthday_this_year.replace(year=today.year + 1)
 
-        # Рахуємо, через скільки днів буде день народження
         days_until = (birthday_this_year - today).days
 
-        # Перевіряємо, чи день народження у межах наступних 7 днів (включно з сьогодні)
         if 0 <= days_until <= 7:
             congratulation_date = birthday_this_year
 
-            # Якщо день народження припадає на суботу —
-            # переносимо привітання на понеділок
-            if congratulation_date.weekday() == 5:
+            if congratulation_date.weekday() == 5:  # субота
                 congratulation_date += timedelta(days=2)
-
-            # Якщо день народження припадає на неділю —
-            # переносимо привітання на понеділок
-            elif congratulation_date.weekday() == 6:
+            elif congratulation_date.weekday() == 6:  # неділя
                 congratulation_date += timedelta(days=1)
 
-            # Додаємо інформацію про користувача у список результатів
-            upcoming.append({
-                "name": user["name"],
-                "congratulation_date": congratulation_date.strftime("%Y.%m.%d")
-            })
+            upcoming.append(
+                {
+                    "name": user["name"],
+                    "congratulation_date": congratulation_date.strftime("%Y.%m.%d"),
+                }
+            )
 
-    # Повертаємо список користувачів з датами привітань
     return upcoming
+
+
+if __name__ == "__main__":
+    users_test = [
+        {"name": "John Doe", "birthday": "1985.01.23"},
+        {"name": "Jane Smith", "birthday": "1990.01.27"},
+    ]
+
+    print(get_upcoming_birthdays(users_test))
