@@ -1,18 +1,21 @@
-#імпортую модуль datetime із бібліотеки datetime
 from datetime import datetime
 
-# Створюю фунцію, як вказано в ТЗ
 
-def get_days_from_today(date):
+def get_days_from_today(date_str: str) -> int:
+    """
+        Повертає кількість днів від заданої дати до поточної.
 
-    try: # Застосовую try/except для роботи з помилками
-        check_date = datetime.strptime(date, "%Y-%m-%d") # парсинг дати в заданому форматі
-        now = datetime.now().date() # фіксую поточну дату
-        delta = now - check_date.date() # вираховую різницю в днях
-        return delta.days # повертаю результат
+        :param date_str: Рядок у форматі 'YYYY-MM-DD'
+        :return: Різниця в днях (int)
+        :raises ValueError: Якщо формат дати некоректний
+        """
+    try:
+        check_date = datetime.strptime(date_str, "%Y-%m-%d").date()
     except ValueError:
         raise ValueError("Невірний формат, введіть у форматі: YYYY-MM-DD")
+    today = datetime.today().date()
+    return (today - check_date).days
 
-result = get_days_from_today("2030-01-01")
-print(result)
+if __name__ == "__main__":
+    print(get_days_from_today("2030-01-1"))
 
