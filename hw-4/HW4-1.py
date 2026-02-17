@@ -3,12 +3,12 @@ from datetime import datetime
 
 def get_days_from_today(date_str: str) -> int:
     """
-        Повертає кількість днів від заданої дати до поточної.
+    Повертає кількість днів від заданої дати до поточної.
 
-        :param date_str: Рядок у форматі 'YYYY-MM-DD'
-        :return: Різниця в днях (int)
-        :raises ValueError: Якщо формат дати некоректний
-        """
+    :param date_str: Рядок у форматі 'YYYY-MM-DD'
+    :return: Різниця в днях (int)
+    :raises ValueError: Якщо формат дати некоректний
+    """
     try:
         check_date = datetime.strptime(date_str, "%Y-%m-%d").date()
     except ValueError:
@@ -16,6 +16,7 @@ def get_days_from_today(date_str: str) -> int:
     today = datetime.today().date()
     return (today - check_date).days
 
+
 if __name__ == "__main__":
-    print(get_days_from_today("2030-01-1"))
+    print(get_days_from_today("2027-02-16"))
 
