@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="de9b86ca-e7d0-493d-a3d7-da3472f56273" name="Changes" comment="Add solution for Module 6 homework: total_salary function">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "rotarant-ux"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/rotarant-ux/Homework-Neoversity-Python-.git",
+    "accountId": "1d60581e-3dbe-4517-a435-5ca2557c7455"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="399iqFCioUZCN3dzphP28uktAxk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Python.HW4-1.executor": "Run",
+    "Python.HW4-2.executor": "Run",
+    "Python.HW4-3.executor": "Run",
+    "Python.HW4-4.executor": "Run",
+    "Python.HW6-1.executor": "Run",
+    "Python.L8.executor": "Run",
+    "Python.hw.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/HW6" />
+      <recent name="$PROJECT_DIR$/hw-4" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="HW4-1" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Homework-Neoversity-Python-" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hw-4/HW4-1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-3944b0c99280-6d6dccd035ac-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.30387.127" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de9b86ca-e7d0-493d-a3d7-da3472f56273" name="Changes" comment="" />
+      <created>1770114875705</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1770114875705</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Test commit">
+      <option name="closed" value="true" />
+      <created>1770115207944</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1770115207944</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Test commit&#10;Added text &quot;Anton&quot;">
+      <option name="closed" value="true" />
+      <created>1770115715084</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1770115715084</updated>
+    </task>
+    <task id="LOCAL-00003" summary="HW-4-1">
+      <option name="closed" value="true" />
+      <created>1770578876460</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1770578876460</updated>
+    </task>
+    <task id="LOCAL-00004" summary="HW-4-1">
+      <option name="closed" value="true" />
+      <created>1770579172427</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1770579172427</updated>
+    </task>
+    <task id="LOCAL-00005" summary="HW-4-1">
+      <option name="closed" value="true" />
+      <created>1770579179275</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1770579179275</updated>
+    </task>
+    <task id="LOCAL-00006" summary="додав задачу 3">
+      <option name="closed" value="true" />
+      <created>1770582335926</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1770582335926</updated>
+    </task>
+    <task id="LOCAL-00007" summary="додав задачу 4">
+      <option name="closed" value="true" />
+      <created>1770583316546</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1770583316546</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Improve task 1 structure:&#10;- add type annotations&#10;- add docstring&#10;- add __main__ block&#10;- fix PEP8 formatting (spacing)">
+      <option name="closed" value="true" />
+      <created>1771185112036</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1771185112036</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Improve task 2:&#10;- add type annotations&#10;- add docstring&#10;- fix PEP8 formatting&#10;- add __main__ block&#10;- validate quantity &lt;= 0">
+      <option name="closed" value="true" />
+      <created>1771185766694</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1771185766694</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Refactor task 3 (phone normalization):&#10;&#10;- add type hints to function signature&#10;- add descriptive docstring&#10;- fix PEP8 formatting (spacing and indentation)&#10;- wrap test code in __main__ block&#10;- improve code readability and structure">
+      <option name="closed" value="true" />
+      <created>1771186180148</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1771186180148</updated>
+    </task>
+    <task id="LOCAL-00011" summary="refactor(task-4): improve structure and compliance with requirements&#10;&#10;- add type hints to function signature&#10;- add detailed docstring&#10;- align formatting with PEP8&#10;- add __main__ entry point with test data&#10;- improve readability and code structure">
+      <option name="closed" value="true" />
+      <created>1771186355173</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1771186355173</updated>
+    </task>
+    <task id="LOCAL-00012" summary="refactor(task-3): finalize phone normalization and fix PEP8 formatting&#10;&#10;- ensure correct indentation&#10;- align with PEP8 spacing rules&#10;- add type hints and docstring&#10;- wrap test execution in __main__">
+      <option name="closed" value="true" />
+      <created>1771341555308</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1771341555308</updated>
+    </task>
+    <task id="LOCAL-00013" summary="refactor(task-1): finalize formatting and documentation&#10;&#10;- fix docstring indentation&#10;- ensure PEP8 spacing compliance&#10;- keep type hints and __main__ entry point">
+      <option name="closed" value="true" />
+      <created>1771341882925</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1771341882925</updated>
+    </task>
+    <task id="LOCAL-00014" summary="refactor(task-2): finalize formatting and documentation&#10;&#10;- ensure PEP8 compliance&#10;- add __main__ entry point">
+      <option name="closed" value="true" />
+      <created>1771342010561</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1771342010561</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Add solution for Module 6 homework: total_salary function">
+      <option name="closed" value="true" />
+      <created>1772658273032</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1772658273032</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Add solution for Module 6 homework: total_salary function">
+      <option name="closed" value="true" />
+      <created>1772658487125</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1772658487125</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Add solution for Module 6 homework: total_salary function">
+      <option name="closed" value="true" />
+      <created>1772658569542</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1772658569542</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Add solution for Module 6 homework: total_salary function">
+      <option name="closed" value="true" />
+      <created>1772658622914</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1772658622914</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Test commit" />
+    <MESSAGE value="Test commit&#10;Added text &quot;Anton&quot;" />
+    <MESSAGE value="HW-4-1" />
+    <MESSAGE value="додав задачу 3" />
+    <MESSAGE value="додав задачу 4" />
+    <MESSAGE value="Improve task 1 structure:&#10;- add type annotations&#10;- add docstring&#10;- add __main__ block&#10;- fix PEP8 formatting (spacing)" />
+    <MESSAGE value="Improve task 2:&#10;- add type annotations&#10;- add docstring&#10;- fix PEP8 formatting&#10;- add __main__ block&#10;- validate quantity &lt;= 0" />
+    <MESSAGE value="Refactor task 3 (phone normalization):&#10;&#10;- add type hints to function signature&#10;- add descriptive docstring&#10;- fix PEP8 formatting (spacing and indentation)&#10;- wrap test code in __main__ block&#10;- improve code readability and structure" />
+    <MESSAGE value="refactor(task-4): improve structure and compliance with requirements&#10;&#10;- add type hints to function signature&#10;- add detailed docstring&#10;- align formatting with PEP8&#10;- add __main__ entry point with test data&#10;- improve readability and code structure" />
+    <MESSAGE value="refactor(task-3): finalize phone normalization and fix PEP8 formatting&#10;&#10;- ensure correct indentation&#10;- align with PEP8 spacing rules&#10;- add type hints and docstring&#10;- wrap test execution in __main__" />
+    <MESSAGE value="refactor(task-1): finalize formatting and documentation&#10;&#10;- fix docstring indentation&#10;- ensure PEP8 spacing compliance&#10;- keep type hints and __main__ entry point" />
+    <MESSAGE value="refactor(task-2): finalize formatting and documentation&#10;&#10;- ensure PEP8 compliance&#10;- add __main__ entry point" />
+    <MESSAGE value="Add solution for Module 6 homework: total_salary function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add solution for Module 6 homework: total_salary function" />
+  </component>
+</project>
