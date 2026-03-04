@@ -53,7 +53,7 @@ def get_upcoming_birthdays(
 if __name__ == "__main__":
     users_test = [
         {"name": "John Doe", "birthday": "1985.01.23"},
-        {"name": "Jane Smith", "birthday": "1990.01.27"},
+        {"name": "Jane Smith", "birthday": "1990.02.18"},
     ]
 
     print(get_upcoming_birthdays(users_test))
