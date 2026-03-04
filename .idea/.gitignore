@@ -4,6 +4,13 @@
 # Editor-based HTTP Client requests
 /httpRequests/
 
+# PyCharm
 .idea/
+
+# Python
 __pycache__/
 *.pyc
+
+# Virtual env
+venv/
+.env
