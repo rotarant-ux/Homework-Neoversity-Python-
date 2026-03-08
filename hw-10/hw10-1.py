@@ -159,6 +159,17 @@ class AddressBook(UserDict):
         else:
             raise KeyError
 
+    @staticmethod
+    def _get_birthday_for_year(birthday: date, year: int) -> date:
+        """
+        Повертає дату дня народження для вказаного року.
+        Якщо дата 29.02 і рік не високосний, повертає 28.02.
+        """
+        try:
+            return birthday.replace(year=year)
+        except ValueError:
+            return birthday.replace(year=year, day=28)
+
     def get_upcoming_birthdays(self) -> list[dict[str, str]]:
         """
         Повертає список користувачів, яких потрібно
@@ -171,10 +182,16 @@ class AddressBook(UserDict):
             if record.birthday is None:
                 continue
 
-            birthday_this_year = record.birthday.date_value.replace(year=today.year)
+            birthday_this_year = self._get_birthday_for_year(
+                record.birthday.date_value,
+                today.year
+            )
 
             if birthday_this_year < today:
-                birthday_this_year = birthday_this_year.replace(year=today.year + 1)
+                birthday_this_year = self._get_birthday_for_year(
+                    record.birthday.date_value,
+                    today.year + 1
+                )
 
             days_difference = (birthday_this_year - today).days
 
